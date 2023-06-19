@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SMS Notification</title>
+</head>
+<body>
+    <h1>SMS Notification</h1>
+    <form method="POST" action="/">
+        <label for="phone_number">Phone Number:</label>
+        <input type="text" name="phone_number" id="phone_number" required><br><br>
+        
+        <label for="message">Message:</label>
+        <textarea name="message" id="message" required></textarea><br><br>
+        
+        <label for="token">Token:</label>
+        <input type="text" name="token" id="token" required><br><br>
+        
+        <input type="submit" value="Send SMS">
+    </form>
+</body>
+</html>
